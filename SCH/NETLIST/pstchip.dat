@@ -1,0 +1,321 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Jan-11-2020 at 03:08:13}
+primitive 'CAPACITOR-NON-POL_C1206_47UF 10';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-NON-POL';
+    JEDEC_TYPE='C1206';
+    VALUE='47uF 10%';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR-NON-POL_C0402_1NF 10%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-NON-POL';
+    JEDEC_TYPE='C0402';
+    VALUE='1nF 10%';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR-POL_C0805_22UF 6.3V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-POL';
+    JEDEC_TYPE='C0805';
+    VALUE='22uF 6.3V';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR-NON-POL_C0402_4.7UF 1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-NON-POL';
+    JEDEC_TYPE='C0402';
+    VALUE='4.7uF 10%';
+  end_body;
+end_primitive;
+primitive 'HEADER-4X1_HDR4X1-2R54-TM-VM_DE';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER-4X1';
+    JEDEC_TYPE='HDR4X1-2R54-TM-VM';
+    VALUE='DEBUG';
+  end_body;
+end_primitive;
+primitive 'AON7409_DFN-3X3-5-0R50X0R35_AON';
+  pin
+    'D':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'G':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'S#1':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'S#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'S#3':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='AON7409';
+    JEDEC_TYPE='DFN-3X3-5-0R50X0R35';
+    VALUE='AON7409';
+  end_body;
+end_primitive;
+primitive 'DTC143ZUAT106_SOT-23-3-0R65X0R5';
+  pin
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DTC143ZUAT106';
+    JEDEC_TYPE='SOT-23-3-0R65X0R50';
+    VALUE='DTC143ZUAT106';
+  end_body;
+end_primitive;
+primitive 'AON7544_DFN-3X3-5-0R50X0R35_AON';
+  pin
+    'D':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'G':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'S#1':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'S#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'S#3':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='AON7544';
+    JEDEC_TYPE='DFN-3X3-5-0R50X0R35';
+    VALUE='AON7544';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_4.7K 1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='4.7K 1%';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_10K 1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='10K 1%';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_75R 1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='75R 1%';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_2K 1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='2K 1%';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_1K 1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='1K 1%';
+  end_body;
+end_primitive;
+primitive 'AP2210K-3.3TRG1_SOT-23-5-1R10X0';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'EN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'BYP/ADJ':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VOUT':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='AP2210K-3.3TRG1';
+    JEDEC_TYPE='SOT-23-5-1R10X0R60';
+    VALUE='AP2210K-3.3TRG1';
+  end_body;
+end_primitive;
+primitive 'EFM8BB21F16G_QFN-20-0R50-3X3EP1';
+  pin
+    'P0.1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'P0.0':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GND#3':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'VDD':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'RSTB/C2CK':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'P2.0/C2D':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'P1.6':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'P1.5':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'P1.4':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'P1.3':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'P0.6':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'P0.7':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'P1.0':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'P1.1':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'GND#12':
+      PIN_NUMBER='(12)';
+      PINUSE='POWER';
+    'P1.2':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'GND#21':
+      PIN_NUMBER='(21)';
+      PINUSE='POWER';
+    'P0.2':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'P0.3':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    'P0.4':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    'P0.5':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='EFM8BB21F16G';
+    JEDEC_TYPE='QFN-20-0R50-3X3EP1R80X1R80';
+    VALUE='EFM8BB21F16G';
+  end_body;
+end_primitive;
+END.
