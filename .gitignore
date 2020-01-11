@@ -9,6 +9,7 @@
 *.lck*
 *.brd,*
 *.dra,*
+*.art,*
 *.txt,*
 *.dat,*
 *AUTOSAVE*
