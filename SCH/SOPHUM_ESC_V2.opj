@@ -150,8 +150,7 @@
          "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\users\abcd\documents\github\sophum_esc_v2\SCH\sophum_esc_v2.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "C:\users\abcd\documents\github\sophum_esc_v2\SCH\sophum_esc_v2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -161,12 +160,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1182 26 288")
-        (Scroll "-325 0")
-        (Zoom "40")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1264 104 370")
+        (Scroll "-269 0")
+        (Zoom "50")
         (Occurrence "/"))
       (Path
          "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC_V2\SCH\SOPHUM_ESC_V2.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "abcd"))
